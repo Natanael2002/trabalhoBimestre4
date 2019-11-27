@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Natanael2002/trabalhoBimestre4/issues"
   },
-  "homepage": "https://github.com/Natanael2002/trabalhoBimestre4#readme"
+  "homepage": "https://github.com/Natanael2002/trabalhoBimestre4#readme",
+  "dependencies": {
+    "mongoose": "^5.7.12"
+  }
 }

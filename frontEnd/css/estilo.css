@@ -1,4 +1,27 @@
 #formulario{
-   text-align: center
+   text-align: center;
 }
-
+.bloco{
+   display: block;
+}
+footer{
+   background-color: cornflowerblue;
+   width: 100%;
+   margin: .3%;
+   padding: .3%;
+   text-align: center;
+   color: white;
+}
+.botao{
+   margin-left: .5%;
+   background-color: white;
+}
+#enviar{
+   width: 7%;
+   height: 30px;
+   color: white;
+   background-color: blue;
+}
+.botao{
+   
+}
