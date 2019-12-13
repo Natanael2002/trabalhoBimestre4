@@ -1,8 +1,18 @@
+nav{
+   background-color: darkolivegreen;
+   color: white;
+}
+.lista{
+   display: inline-block;
+}
+.lk{
+   color: white;
+}
 #formulario{
    text-align: center;
 }
-.bloco{
-   display: block;
+#atalho{
+   text-align: center;
 }
 footer{
    background-color: cornflowerblue;
@@ -17,11 +27,8 @@ footer{
    background-color: white;
 }
 #enviar{
-   width: 7%;
+   width: 150px;
    height: 30px;
    color: white;
    background-color: blue;
-}
-.botao{
-   
 }

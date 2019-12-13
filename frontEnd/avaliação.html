@@ -5,25 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="img/star 0.png">    
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
     <title>Minha Satisfação</title>
 </head>
 <body>
+    <nav>
+        <ul class="container-fluid">
+            <li> <a class="lk" href="usuario.html">Usuário</a> </li>
+            <li> <a class="lk" href="avaliação.html">Avaliação</a> </li>
+            <li> <a class="lk" href="respostas.html">Respostas</a> </li>
+        </ul>
+    </nav>
+
+    <div class="container-fluid" id="atalho">
+        <button>entrar</button>
+        <button>formulario</button>
+    </div>
+
+    <p>Caro Cliente, primeiramente muito obrigado por escolher os serviços da nossa empresa,
+         gostariamos que nos prestigiase com sua aviliação e opinião sobre nossos serviços para isso por favor responda o questionário abaixo conforme as instruções: <br>
+        1. O campo Nome é obrigatório caso não tenha um usuário cadastrado <br>
+        2. O campo Satisfação tem cinco estrelas que, da esquerda para a direita, representam as seguintes opiniões: desaprovo, inadequado, razoavel, bom, excelente <br>
+        3. O Campo Comentário deve ser usado para justificar a avaliação no campo anterior</p>
     <div id="formulario">
         <form  action="">
-            <div class="bloco"> Nome: <input type="text"> </div> <br>
+            <div class="container-fluid"> Nome: <input type="text"> </div> <br>
 
-            <div class="bloco"> Satisfação: 
-            <input class="botao" id="b1" type="button" value="">
-            <input class="botao" id="b2" type="button" value="">
-            <input class="botao" id="b3" type="button" value="">
-            <input class="botao" id="b4" type="button" value="">
-            <input class="botao" id="b5" type="button" value=""> </div> <br>
+            <div class="container-fluid" > Satisfação:
+                <div> 
+                    <input class="botao" id="b1" type="button" value="1">
+                    <input class="botao" id="b2" type="button" value="2">
+                    <input class="botao" id="b3" type="button" value="3">
+                    <input class="botao" id="b4" type="button" value="4">
+                    <input class="botao" id="b5" type="button" value="5"> 
+                </div>
+            </div> <br>
 
-            <div class="bloco"> Comentário: <input type="text"> </div> <br>
-            <div class="bloco"> <button id="enviar" type="submit">Enviar</button> </div>
+            <div class="container-fluid"> Comentário: <input type="text"> </div> <br>
+            <div class="container-fluid"> <button id="enviar" type="submit">Enviar</button> </div>
         </form>
     </div>
-    <footer> Todos os direitos reservados</footer>
+    <footer class="container-fluid"> Todos os direitos reservados</footer>
     
 </body>
 </html>
