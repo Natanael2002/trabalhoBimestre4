@@ -2,6 +2,9 @@ nav{
    background-color: darkolivegreen;
    color: white;
 }
+li {
+   display: inline;
+}
 .lista{
    display: inline-block;
 }
