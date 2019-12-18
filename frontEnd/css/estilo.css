@@ -16,9 +16,9 @@ li {
 }
 #formulario{
    text-align: center;
-   margin: 0.5%;
-   
+   margin: 0.5%;  
 }
+
 #atalho{
    text-align: center;
 }
@@ -52,9 +52,6 @@ footer{
 #inp{
    border-radius: 8px;
 }
-.estrela{
-   width: 2%;
-}
-.est{
-   max-width: 100%;
+#nota{
+   margin: .5%;
 }
