@@ -10,11 +10,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="img/multiple-users-silhouette.png">    
-    <title>Minha Satisfação</title>
+    <title>Minha Satisfação - Usuário</title>
 </head>
 <body>
     <nav>
         <ul class="container-fluid">
+            <img src="img/logo_0.png" alt="">
             <li> <a class="lk" href="usuario.html">Usuário</a> </li>
             <li> <a class="lk" href="avaliação.html">Avaliação</a> </li>
             <li> <a class="lk" href="respostas.html">Respostas</a> </li>
@@ -23,8 +24,8 @@
 
     <div id="formulario">
         <form  action="">
-            <div class="container-fluid"> Nome: <input type="text"> </div> <br>
-            <div class="container-fluid"> Senha: <input type="password"> </div> <br>
+            <div class="container-fluid"> Nome: <input id="inp" type="text"> </div> <br>
+            <div class="container-fluid"> Senha: <input id="inp" type="password"> </div> <br>
             <div class="container-fluid"> 
                 <button id="enviar" type="submit">Entrar</button> 
                 <button id="enviar" type="submit">Cadastre-se</button> 
@@ -35,7 +36,12 @@
             campos e podem ser solicitadas na mesma página. <br>
             1. Caso escolha cadastro e seu usuário será criado, exceto se existir outro igual <br>
             2. Caso escolha entrar será verificado se seu usuário está cadastrado e se a senha está correta <br> </p>
-    <footer> Todos os direitos reservados</footer>
+    <footer class="container-fluid">
+            <p>Siga-nos nas redes sociais:</p> <br>
+            <a href="https://www.facebook.com/assaiatacadistaoficial"> <img class="container" id="redes" src="img/facebook.png" alt=""> </a>
+            <a href="https://www.instagram.com/assaiatacadistaoficial/"> <img class="container" id="redes" src="img/instagram.png" alt=""> </a>
+            <a href="https://twitter.com/assaioficial"> <img class="container" id="redes" src="img/twitter.png" alt=""> </a>
+    </footer>
     
 </body>
 </html>

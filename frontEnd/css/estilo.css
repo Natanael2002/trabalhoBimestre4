@@ -1,9 +1,12 @@
 nav{
-   background-color: darkolivegreen;
+   background-color: cornflowerblue;
    color: white;
+   padding: 0.3%;
+   
 }
 li {
    display: inline;
+   margin: .5%;
 }
 .lista{
    display: inline-block;
@@ -13,25 +16,45 @@ li {
 }
 #formulario{
    text-align: center;
+   margin: 0.5%;
+   
 }
 #atalho{
    text-align: center;
 }
 footer{
-   background-color: cornflowerblue;
+   background-color: grey;
    width: 100%;
    margin: .3%;
    padding: .3%;
    text-align: center;
    color: white;
 }
+#redes{
+   width: 5%;
+   height: 50px;
+}
 .botao{
    margin-left: .5%;
    background-color: white;
 }
 #enviar{
-   width: 150px;
-   height: 30px;
-   color: white;
-   background-color: blue;
+   background-color: rgb(30, 30, 201); 
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+}
+#inp{
+   border-radius: 8px;
+}
+.estrela{
+   width: 2%;
+}
+.est{
+   max-width: 100%;
 }
