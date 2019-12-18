@@ -1,5 +1,5 @@
 nav{
-   background-color: cornflowerblue;
+   background-color: #f15a24;
    color: white;
    padding: 0.3%;
    
@@ -23,7 +23,7 @@ li {
    text-align: center;
 }
 footer{
-   background-color: grey;
+   background-color: #494949;
    width: 100%;
    margin: .3%;
    padding: .3%;
