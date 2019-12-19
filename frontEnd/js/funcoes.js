@@ -19,6 +19,7 @@ function Avaliar(estrela) {
     document.getElementById("s3").src = "img/star0.png";
     document.getElementById("s4").src = "img/star0.png";
     document.getElementById("s5").src = "img/star0.png";
+<<<<<<< HEAD
     avaliacao = 1;
     } else {
     document.getElementById("s1").src = "img/star1.png";
@@ -28,6 +29,19 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 1;
    }}
+=======
+    avaliacao = 2;
+    }
+    // else {
+    // document.getElementById("s1").src = "img/star1.png";
+    // document.getElementById("s2").src = "img/star0.png";
+    // document.getElementById("s3").src = "img/star0.png";
+    // document.getElementById("s4").src = "img/star0.png";
+    // document.getElementById("s5").src = "img/star0.png";
+    // avaliacao = 1;
+    // }
+    }
+>>>>>>> 637e7bbf8cbdffc9f6dacc6cd34cac6fe1907b7d
 
    //ESTRELA 2
    if (estrela == 2){ 
@@ -38,6 +52,7 @@ function Avaliar(estrela) {
     document.getElementById("s4").src = "img/star0.png";
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 2;
+<<<<<<< HEAD
     } else {
     document.getElementById("s1").src = "img/star1.png";
     document.getElementById("s2").src = "img/star1.png";
@@ -46,6 +61,18 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 2;
    }}
+=======
+    } 
+//     else {
+//     document.getElementById("s1").src = "img/star1.png";
+//     document.getElementById("s2").src = "img/star0.png";
+//     document.getElementById("s3").src = "img/star0.png";
+//     document.getElementById("s4").src = "img/star0.png";
+//     document.getElementById("s5").src = "img/star0.png";
+//     avaliacao = 1;
+//    }
+}
+>>>>>>> 637e7bbf8cbdffc9f6dacc6cd34cac6fe1907b7d
 
    //ESTRELA 3
    if (estrela == 3){ 
@@ -56,6 +83,7 @@ function Avaliar(estrela) {
     document.getElementById("s4").src = "img/star0.png";
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 3;
+<<<<<<< HEAD
     } else {
     document.getElementById("s1").src = "img/star1.png";
     document.getElementById("s2").src = "img/star1.png";
@@ -64,6 +92,18 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 3;
    }}
+=======
+    } 
+//     else {
+//     document.getElementById("s1").src = "img/star1.png";
+//     document.getElementById("s2").src = "img/star1.png";
+//     document.getElementById("s3").src = "img/star0.png";
+//     document.getElementById("s4").src = "img/star0.png";
+//     document.getElementById("s5").src = "img/star0.png";
+//     avaliacao = 2;
+//    }
+}
+>>>>>>> 637e7bbf8cbdffc9f6dacc6cd34cac6fe1907b7d
     
     //ESTRELA 4
    if (estrela == 4){ 
@@ -74,6 +114,7 @@ function Avaliar(estrela) {
     document.getElementById("s4").src = "img/star1.png";
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 4;
+<<<<<<< HEAD
     } else {
     document.getElementById("s1").src = "img/star1.png";
     document.getElementById("s2").src = "img/star1.png";
@@ -82,6 +123,18 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "img/star0.png";
     avaliacao = 4;
    }}
+=======
+    } 
+//     else {
+//     document.getElementById("s1").src = "img/star1.png";
+//     document.getElementById("s2").src = "img/star1.png";
+//     document.getElementById("s3").src = "img/star1.png";
+//     document.getElementById("s4").src = "img/star0.png";
+//     document.getElementById("s5").src = "img/star0.png";
+//     avaliacao = 3;
+//    }
+}
+>>>>>>> 637e7bbf8cbdffc9f6dacc6cd34cac6fe1907b7d
 
    if (estrela == 5){ 
     if (s5 == url + "img/star0.png") {
@@ -91,6 +144,7 @@ function Avaliar(estrela) {
     document.getElementById("s4").src = "img/star1.png";
     document.getElementById("s5").src = "img/star1.png";
     avaliacao = 5;
+<<<<<<< HEAD
     } else {
     document.getElementById("s1").src = "img/star1.png";
     document.getElementById("s2").src = "img/star1.png";
@@ -99,6 +153,18 @@ function Avaliar(estrela) {
     document.getElementById("s5").src = "img/star1.png";
     avaliacao = 5;
    }}
+=======
+    } 
+//     else {
+//     document.getElementById("s1").src = "img/star1.png";
+//     document.getElementById("s2").src = "img/star1.png";
+//     document.getElementById("s3").src = "img/star1.png";
+//     document.getElementById("s4").src = "img/star1.png";
+//     document.getElementById("s5").src = "img/star0.png";
+//     avaliacao = 4;
+//    }
+}
+>>>>>>> 637e7bbf8cbdffc9f6dacc6cd34cac6fe1907b7d
    
     document.getElementById('rating').innerHTML = avaliacao;
     
